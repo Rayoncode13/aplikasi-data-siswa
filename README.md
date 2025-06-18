@@ -69,7 +69,7 @@ cd your-repository-name
 
 3.  Pilih database yang baru dibuat, lalu buka tab **SQL**.
 
-4.  Jalankan query SQL berikut untuk membuat tabel `tb_siswa`:
+4.  Jalankan query SQL berikut untuk membuat tabel `tbl_siswa`:
 
     ```sql
     CREATE TABLE tbl_siswa (
@@ -107,6 +107,6 @@ cd your-repository-name
 
 1.  Pindahkan folder proyek `sekolah` ke dalam direktori `htdocs` (jika menggunakan XAMPP) atau `www` (jika menggunakan WAMP/LAMP).
 2.  Buka browser Anda dan akses `http://localhost/sekolah`.
-
 -----
+**Terima kasih telah mengunjungi repositori saya!**
 
