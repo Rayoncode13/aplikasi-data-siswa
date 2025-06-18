@@ -88,17 +88,19 @@ cd your-repository-name
 
     ```php
     <?php
-    $host = "localhost";    // Biasanya tetap "localhost"
-    $user = "root";         // User default XAMPP
-    $pass = "";             // Password default XAMPP kosong
-    $db   = "db_sekolah";   // Nama database yang Anda buat
-
-    $conn = mysqli_connect($host, $user, $pass, $db);
-
-    if (!$conn) {
-        die("Koneksi Gagal: " . mysqli_connect_error());
+    // variable declassification
+    $db_host = "localhost";
+    $db_user = "root";
+    $db_pass = "";
+    $db_name = "db_sekolah";
+    $connection = mysqli_connect ($db_host, $db_user, $db_pass, $db_name);
+    if ($connection) {
+    echo "Connection Successful!";
+    } else {
+    echo "Connection Failed!:". mysqli_connect_error();
     }
     ?>
+
     ```
 
 ### 5\. Jalankan Aplikasi
