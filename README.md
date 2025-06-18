@@ -72,13 +72,11 @@ cd your-repository-name
 4.  Jalankan query SQL berikut untuk membuat tabel `tb_siswa`:
 
     ```sql
-    CREATE TABLE tb_siswa (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        nama VARCHAR(100) NOT NULL,
-        nis VARCHAR(20) NOT NULL,
-        jurusan VARCHAR(50),
+    CREATE TABLE tbl_siswa (
+        id_siswa INT (11)AUTO_INCREMENT PRIMARY KEY,
+        full_name VARCHAR(50) NOT NULL,
+        nisn VARCHAR(10) NOT NULL,
         alamat TEXT,
-        tanggal_input TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
     ```
 
