@@ -4,8 +4,6 @@ Ini adalah proyek aplikasi web sederhana yang mengimplementasikan fungsionalitas
 
 Proyek ini sangat cocok untuk pemula yang ingin mempelajari dasar-dasar pengembangan web dengan PHP, interaksi dengan database MySQL, dan penggunaan framework CSS seperti Bootstrap.
 
-  
-*(Saran: Ganti link di atas dengan screenshot aplikasi Anda untuk membuatnya lebih menarik)*
 
 ## 🚀 Fitur Utama
 
